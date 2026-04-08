@@ -75,10 +75,10 @@ const getInitialMockSettings = (): AppSettings => {
     }
   }
   return {
-    namaSekolah: "SDN Harapan Bangsa",
-    alamat: "Jl. Pendidikan No. 123, Kota Pelajar, Indonesia 12345",
+    namaSekolah: "SMP TUJUH LENTERA",
+    alamat: "Jl. Kebon Melati No. 02 Babakan Ciwaringin Cirebon",
     telepon: "(021) 1234-5678",
-    email: "info@sdnharapanbangsa.sch.id",
+    email: "smp7lentera@gmail.com",
     deskripsi: "Mencetak generasi penerus bangsa yang cerdas, berakhlak mulia, dan siap menghadapi tantangan masa depan dengan pendidikan berkualitas.",
     statusPendaftaran: "Buka",
     persyaratanDaftarUlang: "1. Membawa Bukti Kelulusan yang dicetak\n2. Membawa Fotokopi Akta Kelahiran (2 lembar)\n3. Membawa Fotokopi Kartu Keluarga (2 lembar)\n4. Membawa Pas Foto 3x4 (4 lembar)\n5. Melakukan pembayaran administrasi awal",
@@ -104,7 +104,7 @@ const getInitialMockSettings = (): AppSettings => {
       { id: "Kartu Keluarga", label: "Kartu Keluarga", type: "file", required: true },
       { id: "Akta Kelahiran", label: "Akta Kelahiran", type: "file", required: true }
     ],
-    panduanJudul: "Panduan Pendaftaran PPDB",
+    panduanJudul: "Panduan Pendaftaran SPMB",
     panduanDeskripsi: "Persiapkan dokumen berikut sebelum mulai mengisi formulir pendaftaran.",
     panduanPeringatan: "Pastikan semua dokumen di-scan atau difoto dengan jelas dan dapat terbaca. Format file yang disarankan adalah JPG, PNG, atau PDF dengan ukuran maksimal 2MB per file.",
     panduanDokumen: [
@@ -147,7 +147,7 @@ const getInitialMockData = (): AdminData[] => {
   return [
     {
       Timestamp: new Date().toISOString(),
-      'No Pendaftaran': "PPDB-2024-001",
+      'No Pendaftaran': "SPMB-2024-001",
       'Nama Lengkap': "Budi Santoso",
       'NIK': "1234567890123456",
       'Tempat Lahir': "Jakarta",
